@@ -1,0 +1,516 @@
+body {
+  margin: 0px;
+  /* padding-bottom: 100px; */
+}
+a {
+  list-style: none;
+  display: block;
+}
+.container {
+  max-width: 1216px !important;
+}
+
+/* section popup start */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999; /* Ensure it's above everything else */
+}
+
+.popup-img1{
+  width: 100%;
+  height: 300px;
+}
+/* Styling for the popup */
+.popup {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: fixed;
+  /* width: 30%; */
+}
+
+/* Close button styling */
+.close {
+  position: absolute;
+  top: -23px;
+  right: 5px;
+  cursor: pointer;
+  transition: all .3s ease-in;
+  opacity: 1 !important;
+}
+.sahil {
+  color: red !important;
+}
+.popup-main{
+  display: flex;
+  justify-content: space-between;
+}
+.date{
+  text-align: left;
+  margin-left: 23px;
+  margin-bottom: 20px;
+}
+.main-icon-popup {
+  display: flex;
+  justify-content: end;
+}
+.icone-sos-popup {
+  margin-right: 25px;
+  color: #ff6600;
+  transition: all 0.1s ease;
+}
+.icone-sos-popup:hover {
+  color: #000;
+}
+/* section popup end */
+
+/* section phone contactus start */
+.contactus {
+  background-color: #000;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.phone {
+  cursor: pointer;
+}
+.icon-phone {
+  color: #ff6600;
+  margin-right: 20px;
+  transition: all 0.1s ease;
+}
+.icon-phone:hover {
+  color: #fff;
+}
+.main-icon {
+  display: flex;
+  justify-content: end;
+}
+.icone-sos {
+  margin-right: 25px;
+  color: #ff6600;
+  transition: all 0.1s ease;
+}
+.icone-sos:hover {
+  color: #fff;
+}
+/* section phone contactus end */
+
+/* section flag start */
+.flag {
+  background-color: #ff6600;
+  color: #ffff;
+}
+.flag img {
+  width: 45px;
+}
+.flag-main {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+/* section nav start */
+.navbar-collapse{
+  flex-direction: row-reverse;
+  color: aliceblue;
+}
+.nav-item{
+  padding: 0px 0px;
+}
+.nav-link{
+  font-weight: 600 !important;
+  color: #000 !important;
+  transition: all .5s ease !important;
+}
+.nav-link:hover{
+  color: #ff6600 !important;
+}
+.logo1{
+  width: 55px;
+}
+.logo2{
+  width: 165px;
+  margin-top: 5px;
+}
+ul{
+  width: 100%;
+  justify-content: space-evenly;
+}
+.navbar-toggler{
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+.navbar-nav{
+  text-align: center;
+}
+
+/* section nav end */
+
+/* section slider start */
+.main-slider {
+  width: 100%;
+  height: 570px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 48% !important;
+  z-index: 1;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 50px !important;
+  color: #fff;
+  text-align: center;
+  /* opacity: 0.1 !important ; */
+  transition: opacity 0.15s ease;
+  border-radius: 50%;
+  border: none;
+  height: 50px;
+}
+/* section slider end */
+
+
+/* section flip visa start */
+.visa-color {
+  background-color: #f0f0f0;
+  padding: 20px 0px;
+}
+.visa-contain{
+  padding-right: 50px !important;
+}
+.visa-profile-h3{
+  text-align: center;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 40px;
+}
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 300px;
+  perspective: 1000px;
+  margin: 0 17px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* .flip-card-front {
+  background-color: #bbb;
+  color: black;
+} */
+
+.flip-card-img2{
+  width: 100%;
+  height: 100%;
+}
+.flip-card-back {
+  background-color: #000;
+  color: white;
+  transform: rotateY(180deg);
+}
+/* section flip visa end */
+
+/* section what our start */
+.color-main {
+  background-color: #f0f0f0;
+  padding: 20px 65px;
+}
+.take {
+  width: 100%;
+  border-radius: 20px;
+}
+.sahil {
+  color: #000;
+  max-width: 491px;
+  margin: 27px 0px;
+  line-height: 45px;
+}
+.button-consultation {
+  border: 2px solid #000;
+  padding: 10px 30px;
+  border-radius: 24px;
+  background-color: #fff;
+  color: #000;
+  transition: all 0.1s ease;
+}
+.button-consultation:hover {
+  background-color: #000;
+  color: #fff;
+}
+/* section what our end */
+
+/* section profile start */
+.bg-profile {
+  background-color: #f0f0f0;
+  padding: 20px 0px;
+}
+.profile-h3 {
+  text-align: center;
+  color: #000;
+  font-weight: 600;
+}
+.profile-p {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.profile-p2 {
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.main-profilename {
+  display: flex;
+  margin-top: 25px;
+}
+.profile-img {
+  width: 80px;
+  border-radius: 50%;
+  height: 81px;
+}
+.profile-name {
+  margin-top: 23px;
+  margin-left: 20px;
+}
+/* section profile end */
+
+/* section footer start */
+.bg-footer{
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0px;
+}
+.footer-h5{
+  font-weight: 600;
+}
+.footer-ul{
+  padding: 0px;
+  list-style: none;
+}
+.footer-a1{
+  color: #fff;
+  transition: all .1s ease;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 45px;
+}
+.footer-a1:hover{
+  color: #ff6600;
+  text-decoration: none;
+}
+.footer-p1{
+  text-align: center;
+}
+.icon-footers{
+  display: flex;
+  line-height: 45px;
+}
+.icone-sosial {
+  margin-right: 25px;
+  color: #ff6600;
+  transition: all 0.1s ease;
+  font-size: 20px;
+}
+.icone-sosial:hover {
+  color: #fff;
+}
+/* section footer end */
+
+/* section disclaimer start */
+.bg-disclaimer{
+  background-color: #000;
+  color: #fff;
+  padding: 45px 0px;
+}
+.disclaimer-p{
+  text-align: center;
+  max-width: 870px;
+  margin: auto;
+  margin-top: 18px;
+  line-height: 25px;
+}
+/* section disclaimer end */ 
+
+
+/* Cart Area Style start */
+.cart-area .cart-controller {
+  background-color: var(--white-color);
+  border: 1px solid #ebebeb;
+  border-bottom: none;
+  margin-bottom: 35px;
+}
+
+
+.cart-area .cart-table {
+  text-align: center;
+}
+
+.cart-area .cart-table table {
+  margin-bottom: 0;
+}
+
+.cart-area .cart-table table thead tr {
+  border-style: none;
+}
+
+.cart-area .cart-table table thead tr th {
+  border: none;
+  color: var(--heading-color);
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 30px;
+}
+
+.cart-area .cart-table table tbody tr td {
+  vertical-align: middle;
+  border: none;
+  border-bottom: 1px solid #dedede;
+  white-space: nowrap;
+  padding: 15px 30px;
+}
+
+.cart-area .table > thead {
+  background: #dedede;
+}
+/* Cart Area Style end */
+
+
+
+
+
+
+
+/* media query start */
+@media (max-width: 992px) {
+  /* section popup start */
+  .close {
+    top: -13px;
+  }
+  /* section popup end */
+
+  /* section what our start */
+  .sahil {
+    margin: 20px 0px;
+    line-height: 40px;
+  }
+  /* section what our end */
+}
+@media (max-width: 768px) {
+  /* section phone contactus start */
+  .respons-mobile{
+    width: 60% !important;
+  }
+  .respons-mobile1{
+    width: 40% !important;
+  }
+  /* section phone contactus end */
+
+  /* section what our start */
+  .sahil {
+    margin: 20px 0px;
+    line-height: 30px;
+    font-size: 22px;
+  }
+  .button-consultation {
+    margin-bottom: 20px;
+  }
+  .take {
+    margin: 15px 0px;
+  }
+  /* section what our end */
+  /* section flip visa start */
+  .flip-card {
+    margin: 20px 17px 0px 17px;
+  }
+   /* section flip visa end */
+
+   /* section profile start */
+   .main-profilename {
+    margin: 10px 0px;
+  }
+  /* section profile end */
+
+  /* section footer start */
+  .footer-responsiv1{
+    max-width: 50% !important;
+    display: inline-block;
+    /* text-align: center; */
+  }
+  /* section footer end */
+}
+
+@media (max-width: 576px){
+  /* section slider start  */
+  .main-slider {
+    height: 450px;
+  }
+  /* section slider end */
+
+  /* section footer start */
+  .footer-responsiv1{
+    max-width: 50%;
+    display: inline-block;
+  }
+  .footer-p1 {
+    margin-top: 40px;
+  }
+  /* section footer end */
+}
+
+@media (max-width: 400px) {
+  /* section phone contactus start */
+  .icone-sos {
+    margin-right: 15px;
+  }
+  /* section phone contactus end */
+  /* section footer start */
+  .footer-responsiv1{
+    max-width: 100% !important;
+    margin-bottom: 20px;
+    text-align: center;
+    /* display: inline-block; */
+  }
+  .icon-footers {
+    display: inline-flex;
+  }
+  /* section footer end */
+}
+
